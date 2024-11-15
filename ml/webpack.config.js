@@ -13,7 +13,7 @@ export default {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
     library: {
-      type: 'commonjs',
+      type: 'module',
     },
   },
   resolve: {
